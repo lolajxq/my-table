@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.page-item {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #aaa;
+  border: 1px solid #aaa;
+}
+
+.active {
+  color: #000;
+  border-color: #000;
+}

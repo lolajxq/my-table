@@ -1,0 +1,36 @@
+#table-container {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+thead {
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.fixed {
+  position: sticky;
+  z-index: 1;
+  background-color: #eee;
+}
+
+.page-tool {
+  margin-top: 10px;
+}
